@@ -4,3 +4,8 @@ numpy
 scikit-learn
 matplotlib
 python-dotenv
+praw
+json
+time
+os
+dotenv
