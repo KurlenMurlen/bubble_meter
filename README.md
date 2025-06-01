@@ -1,6 +1,6 @@
 # Bubble Meter
 
-O **Bubble Meter** é uma ferramenta profissional para análise do efeito bolha em plataformas de recomendação de conteúdo, como YouTube e Twitch. O sistema coleta recomendações via APIs públicas, calcula métricas de diversidade e personalização, e apresenta resultados em um espectro visual, facilitando a compreensão do potencial de formação de bolhas de cada plataforma.
+O **Bubble Meter** é uma ferramenta profissional para análise do efeito bolha em plataformas de recomendação de conteúdo, como YouTube e Reddit. O sistema coleta recomendações via APIs públicas, calcula métricas de diversidade e personalização, e apresenta resultados em um espectro visual, facilitando a compreensão do potencial de formação de bolhas de cada plataforma.
 
 ## Funcionalidades
 
@@ -18,9 +18,12 @@ O **Bubble Meter** é uma ferramenta profissional para análise do efeito bolha 
 
 2. **Crie um arquivo `.env` na raiz do projeto com suas chaves de API:**
    ```
-   YOUTUBE_API_KEY=sua_chave_youtube
-   TWITCH_API_KEY=sua_chave_twitch
-   ```
+   YOUTUBE_API_KEY=sua_chave_aqui
+   
+   REDDIT_CLIENT_ID=seu_client_id
+   REDDIT_CLIENT_SECRET=seu_client_secret
+   REDDIT_USER_AGENT=seu_user_agent
+      ```
 
 3. **Execute o programa:**
    ```
