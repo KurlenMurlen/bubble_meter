@@ -2,10 +2,10 @@ import requests
 from urllib.parse import quote_plus
 
 def test_youtube_connection():
-    API_KEY = "AIzaSyCKwX1omTDnCSdRmxVwzowxEZGJLVqi37U"
+    API_KEY = "" #insira a chave que voce criou
     search_query = quote_plus("test")  # Codifica o termo de busca
     
-    url = f"https://www.googleapis.com/youtube/v3/videos?part=snippet&id=dQw4w9WgXcQ&key={API_KEY}"
+    url = f"...={API_KEY}" #insira a chave que voce criou
 
     response = requests.get(url)
     print(response.json())  # Deve retornar dados do vídeo "Never Gonna Give You Up"
