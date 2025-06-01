@@ -1,0 +1,30 @@
+[
+  {
+    "platform": "YouTube",
+    "avg_similarity": 0.1160889557016271,
+    "diversity_score": 0.8839110442983729,
+    "sample_size": 10,
+    "timestamp": "2025-06-01T15:42:57.724749"
+  },
+  {
+    "platform": "Reddit",
+    "avg_similarity": 0.006168798081039786,
+    "diversity_score": 0.9938312019189602,
+    "sample_size": 10,
+    "timestamp": "2025-06-01T15:42:58.550932"
+  },
+  {
+    "platform": "YouTube",
+    "avg_similarity": 0.06342243361319042,
+    "diversity_score": 0.9365775663868096,
+    "sample_size": 10,
+    "timestamp": "2025-06-01T15:43:59.227605"
+  },
+  {
+    "platform": "Reddit",
+    "avg_similarity": 0.006168798081039786,
+    "diversity_score": 0.9938312019189602,
+    "sample_size": 10,
+    "timestamp": "2025-06-01T15:43:59.513031"
+  }
+]
